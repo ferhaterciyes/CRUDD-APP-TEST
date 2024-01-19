@@ -12,7 +12,7 @@ const Form = ({ addUser }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="my-5">
+      <div className="mt-5">
         <label htmlFor="name">İsim</label>
         <input
           id="name"
@@ -35,8 +35,9 @@ const Form = ({ addUser }) => {
         />
       </div>
       <div className="my-4">
-        <label htmlFor="">İsim</label>
+        <label htmlFor="age">Yas</label>
         <input
+          id="age"
           required
           type="number"
           name="age"
