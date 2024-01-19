@@ -1,4 +1,4 @@
-export  const users = [
+export const users = [
   {
     name: "Mehmet",
     email: "ferhat38@gmail.com",
@@ -12,6 +12,7 @@ export  const users = [
   {
     name: "Memoli",
     email: "memo@gmail.com",
-    age: 18,
+    age: 15,
   },
+
 ];

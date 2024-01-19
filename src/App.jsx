@@ -16,10 +16,17 @@ const App = () => {
     },
   ]);
 
+  const addUser=(newUser)=>{
+    setUsers([...users, newUser])
+  }
+  
+
+
+
   return (
     <div className="container">
       <h2 className="text-center">Kullanıcı Paneli</h2>
-      <Form />
+      <Form  addUser={addUser}/>
 
       <List users={users} />
     </div>
